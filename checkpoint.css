@@ -1,0 +1,157 @@
+* {
+  background-color: white;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin-inline: 5%;
+}
+
+/*########## header ###########*/
+header {
+  /* border-style: solid;
+  border-color: blue;
+  background-color: white; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5%;
+  padding: 25px;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  padding-left: 25px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 250px;
+  padding-right: 25px;
+}
+
+header ul a {
+  text-decoration: none;
+  color: #484551;
+  font-weight: bold;
+}
+
+header ul a:hover {
+  text-decoration: underline;
+  color: #4fa3db;
+  font-weight: bold;
+}
+/*########## main ###########*/
+main {
+  /* border-style: solid;
+  border-color: orange; */
+}
+
+.About {
+  display: flex;
+  /* border-style: solid;
+  border-color: red; */
+  font-size: 25px;
+  font-weight: 900;
+  justify-content: space-between;
+}
+
+.About span {
+  color: #4fa3db;
+  font-weight: bolder;
+}
+
+.bouton {
+  margin-left: 10%;
+  background-color: transparent;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 25px;
+  padding-inline: 50px;
+}
+
+.bouton:hover {
+  margin-left: 10%;
+  background-color: #4fa3db;
+  color: white;
+  border-style: solid;
+  border-color: #4fa3db;
+  border-radius: 5px;
+  padding: 25px;
+  padding-inline: 50px;
+}
+
+.iframe {
+  width: 50%;
+  height: 50%;
+}
+
+.Right-About {
+  padding-right: 10%;
+}
+
+.Left-About {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Left-About h1 {
+  padding-left: 30%;
+  width: 600px;
+}
+
+.Projects {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 5%;
+  padding-left: 5%;
+  justify-content: stretch;
+}
+.card {
+  margin-bottom: 5%;
+  width: 300px;
+  background-color: transparent;
+  border-radius: 5%;
+  /* border-style: solid;
+  border-width: 1px; */
+  box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  margin-bottom: 5%;
+  width: 300px;
+  background-color: transparent;
+  border-radius: 5%;
+  /* border-style: solid;
+    border-width: 1px; */
+  box-shadow: 0px 0px 11px 11px rgba(79, 163, 219, 0.2);
+}
+.card img {
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  width: 300px;
+  height: 280px;
+}
+
+.card-body {
+  background-color: transparent;
+  padding-inline: 5%;
+  padding-bottom: 5%;
+}
+
+.card-title {
+  font-size: 120%;
+  font-weight: 120%;
+}
+/*########## footer ###########*/
+footer {
+  border-style: solid;
+  border-color: black;
+}
